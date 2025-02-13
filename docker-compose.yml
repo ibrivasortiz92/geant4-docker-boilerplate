@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  geant4:
+    build:
+      context: .
+      args:
+        MY_CMAKE: ${MY_CMAKE}
+        MY_GEANT4: ${MY_GEANT4}
+    volumes:
+    - type: bind
+      source: ./apps/
+      target: /home/apps
