@@ -4,9 +4,9 @@ Boilerplate for geant4 applications inside docker containers.
 
 ### Installation:
 
-- Place cmake source `.tat.gz` file inside `src/` folder.
+- Place cmake source `.tar.gz` file inside `src/` folder.
 
-- Place geant4 source `.tat.gz`  file inside `src/` folder.
+- Place geant4 source `.tar.gz`  file inside `src/` folder.
 
 - Place cross-section datasets `tar.gz` files inside `src/datasets/` folder.
 
